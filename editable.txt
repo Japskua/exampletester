@@ -1,0 +1,25 @@
+This file contains editable data :-D
+
+
+Yay!
+
+Let's try to write something.
+
+Pekka.gender = male;
+while(Pekka.gender == male)
+{
+	TravelToTallinn(Pekka);
+	HaveSexChangeOperation(Pekka);
+}
+
+public void TravelToTallinn(object Person)
+{
+	Person.location = Tallinn;
+}
+
+private bool HaveSexChangeOperation(object Person)
+{
+
+	// TODO: Add sex change operation here
+
+}
