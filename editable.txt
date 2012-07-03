@@ -19,7 +19,15 @@ public void TravelToTallinn(object Person)
 
 private bool HaveSexChangeOperation(object Person)
 {
-
-	// TODO: Add sex change operation here
+	if (Person.gender == male)
+	{
+		Person.gender = female;
+		// TODO: Add random success rate
+	}
+	else if (Person.gender == female)
+	{
+		Person.gender = male;
+		// TODO: Add random success rate here!
+	}
 
 }
